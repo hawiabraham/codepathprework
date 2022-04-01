@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="https://glitch.com/favicon.ico" />
+
+    <title>Hello world!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <!-- this is the start of content -->
+    <h1>
+      Light and Sound Memory Game
+    </h1>
+    <p>
+      Welcome to the game! Repeat back the pattern by pressing buttons.
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+    
+    <div id="gameButtonArea">
+      <button id="button1" onclick="guess(1)" onmousedown="startTone(1)" onmouseup="stopTone()" type="button"> <img src="https://cdn.glitch.global/e165ef1e-7115-4d34-86ad-ae159eadb41e/pianopng.png?v=1648848246598" width="100" height="100"/></button>
+      <button id="button2" onclick="guess(2)" onmousedown="startTone(2)" onmouseup="stopTone()" type="button"> <img src="https://cdn.glitch.global/e165ef1e-7115-4d34-86ad-ae159eadb41e/violinandbow.png?v=1648848082456" width="100" height="100"/></button>
+      <button id="button3" onclick="guess(3)" onmousedown="startTone(3)" onmouseup="stopTone()" type="button"> <img src="https://cdn.glitch.global/e165ef1e-7115-4d34-86ad-ae159eadb41e/drumkit.png?v=1648848294742" width="100" height="100"/></button>
+      <button id="button4" onclick="guess(4)" onmousedown="startTone(4)" onmouseup="stopTone()" type="button"> <img src="https://cdn.glitch.global/e165ef1e-7115-4d34-86ad-ae159eadb41e/guitarpng.png?v=1648848248123" width="100" height="100"/></button>  
+    </div>
+    
+  </body>
+</html>
