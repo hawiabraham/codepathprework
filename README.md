@@ -32,8 +32,10 @@ The following **additional** features are implemented:
 ## Video Walkthrough (GIF)
 
 If you recorded multiple GIFs for all the implemented features, you can add them here:
-![]![](https://i.imgur.com/0o0xN8L.gif)
-![](gif2-link-here)
+![] ![ezgif-2-3376693170](https://user-images.githubusercontent.com/87673586/161357575-a00de49a-23e5-4b79-8cd5-141d003031a2.gif)
+
+![] ![ezgif-2-d6307b09dc](https://user-images.githubusercontent.com/87673586/161357563-4d6c554b-9e6c-4ab1-ba17-43587c9d9601.gif)
+
 ![](gif3-link-here)
 ![](gif4-link-here)
 
